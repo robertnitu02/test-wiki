@@ -29,6 +29,7 @@ theme:
       accent: lime
 
 plugins:
+  - search
   - git-revision-date-localized:
       enable_creation_date: true
   - git-committers:
