@@ -1,4 +1,6 @@
 site_name: B-Zone Roleplay Wiki
+repo_url: https://github.com/robertnitu02/test-wiki
+repo_name: robertnitu02/test-wiki
 theme:
   name: material
   features:
@@ -25,6 +27,14 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: robertnitu02/test-wiki
+      branch: master
+  - git-authors
 
 copyright: |
   &copy; 2023 <a href="https://v.b-zone.ro/"  target="_blank" rel="noopener">B-Zone Roleplay</a>
